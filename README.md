@@ -4,3 +4,5 @@
 画像と同じ階層に画像名のフォルダを生成したのち, (画像名)\_\[x]\_[y].pngファイルを生成します. </br>
 </br>
 https://github.com/TK-aN/ImageSlicer/releases
+
+https://github.com/TK-aN/ImageSlicer/blob/main/doc/preview.png?raw=true
