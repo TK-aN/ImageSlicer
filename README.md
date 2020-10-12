@@ -5,4 +5,5 @@
 </br>
 https://github.com/TK-aN/ImageSlicer/releases
 
-https://github.com/TK-aN/ImageSlicer/blob/main/doc/preview.png?raw=true
+
+![prev](https://github.com/TK-aN/ImageSlicer/blob/main/doc/preview.png?raw=true)
