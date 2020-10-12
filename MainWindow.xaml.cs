@@ -83,14 +83,10 @@ namespace ImageSlicer
                             int y = j_y + i_y * bmHeight;
 
                             if(x >= bitmap.Width || y >= bitmap.Height)
-                            {
                                 bm.SetPixel(j_x, j_y, System.Drawing.Color.Transparent);
-                            }
                             else
-                            {
                                 bm.SetPixel(j_x, j_y, bitmap.GetPixel(x, y));
-                            }
-                            
+
                         }
                     }
 
@@ -163,7 +159,6 @@ namespace ImageSlicer
             stream.Close();
             stream.Dispose();
 
-           
             imagePreview.Source = image;
             text_ImageSize.Text = "<ImageSize> " + image.PixelWidth.ToString() + "x" + image.PixelHeight.ToString();
 
